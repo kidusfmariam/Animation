@@ -1,6 +1,7 @@
 import {motion, AnimatePresence} from 'framer-motion'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
+import Tagline from './Components/Tagline/Tagline'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     >
     <Header/>
     <Hero/>
+    <Tagline/>
     </motion.div>
     </AnimatePresence>
     

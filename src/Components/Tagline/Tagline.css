@@ -1,0 +1,64 @@
+.tagline-container{
+    padding: 55px 0;
+    width:95%;
+    margin: auto;
+}
+.tagline-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header-left{
+    font-weight: 200;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+.highlighted-title{
+    font-family: "Gravitas One", serif;
+    text-transform: uppercase;
+    color: #701515;
+    width: 100%;
+    font-size: 8vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+.right-flex .quote-box{
+    width: 500px;
+    max-width: 1000px;
+}
+.right-flex >.quote-box > h3{
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 1rem;
+    color: #701515;
+    opacity: 80%;
+}
+.right-flex >.quote-box > p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2vw;
+}
+@media screen and (max-width: 1000px) {
+    .tagline-flex{
+        flex-direction: column;
+    }
+    .left-flex{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .right-flex .quote-box{
+        width: 300px;
+    }
+}

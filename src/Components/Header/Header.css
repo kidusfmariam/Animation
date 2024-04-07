@@ -3,6 +3,7 @@ header{
     position: absolute;
     width: 100%;
     top: 0;
+    padding: 20px 0;
 }
 nav{
     display: flex;
@@ -15,6 +16,7 @@ nav{
 ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     width: 60%;
 }
